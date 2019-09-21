@@ -1,0 +1,59 @@
+body {
+  background-color: #d9ffcc;
+  background-image: bakgrundsbild.jpeg;
+}
+
+header{
+  border: 3px solid;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+
+.välkommen {
+  color: #000000;
+  font-family: Fantasy;
+  text-align: center;
+}
+
+h1 {
+
+}
+
+img {
+  display: block;
+  width: 500px;
+  margin: 50px auto;
+  transform: rotate(180deg);
+}
+
+p {
+  text-align: center;
+  font-family: Fantasy;
+  font-size: 20px;
+}
+
+.vadsom {
+  font-family: Fantasy;
+  font-size: 24px;
+  color: #000000;
+}
+.hitta-hit {
+  height: 400px;
+  background-image: url(karta.png);
+  background-size: cover;
+  text-align: left;
+}
+
+.vägbeskrivning{
+  text-align: left;
+  font-size: 20px;
+}
+
+footer {
+  border: 2px solid;
+  height: 400px;
+}
